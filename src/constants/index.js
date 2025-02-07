@@ -13,9 +13,9 @@ import {
   figma,
   aerchain,
   mountblue,
-  carrent,
-  jobit,
-  tripguide,
+  medium,
+  trello,
+  easyBank,
   threejs,
 } from "../assets";
 
@@ -171,7 +171,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: medium,
     source_code_link: "https://aquamarine-toffee-7a9527.netlify.app/",
   },
   {
@@ -192,7 +192,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: trello,
     source_code_link: "https://superb-figolla-113e55.netlify.app/",
   },
   {
@@ -213,7 +213,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: easyBank,
     source_code_link: "https://shiny-starburst-022efd.netlify.app/",
   },
 ];

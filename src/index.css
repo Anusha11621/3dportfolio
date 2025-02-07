@@ -126,6 +126,11 @@
   transform: translateZ(0);
 }
 
+.vertical-timeline-element-icon {
+  background: rgb(255, 255, 255) !important; 
+}
+
+
 @keyframes mulShdSpin {
   0%,
   100% {

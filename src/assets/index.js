@@ -24,9 +24,9 @@ import threejs from "./tech/threejs.svg";
 import aerchain from "./company/aerchain.png";
 import mountblue from "./company/mountblue.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import medium from "./medium.png";
+import trello from "./trello.png";
+import easyBank from "./easyBank.png";
 
 export {
   logo,
@@ -52,7 +52,7 @@ export {
   threejs,
   mountblue,
   aerchain,
-  carrent,
-  jobit,
-  tripguide,
+  medium,
+  trello,
+  easyBank,
 };

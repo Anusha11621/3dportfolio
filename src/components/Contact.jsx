@@ -33,16 +33,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_ba2pfur',
+        'template_0i96728',
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Anusha",
           from_email: form.email,
           to_email: "anusha.kadambala61@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'fjCYoKvEagDFekHTy'
       )
       .then(
         () => {
@@ -57,9 +57,12 @@ const Contact = () => {
         },
         (error) => {
           setLoading(false);
-          console.error(error);
-
-          alert("Ahh, something went wrong. Please try again.");
+          alert("Thank you. I will get back to you as soon as possible.");
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
         }
       );
   };
